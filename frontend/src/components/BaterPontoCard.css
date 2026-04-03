@@ -1,0 +1,177 @@
+.bater-ponto-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.bater-ponto-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fase-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fase-emoji {
+    font-size: 1.25rem;
+}
+
+.fase-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--fase-cor, var(--color-text));
+}
+
+/* Relógio */
+.bater-ponto-relogio .relogio-hora {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+}
+
+.bater-ponto-relogio .relogio-data {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+}
+
+/* Horas do dia */
+.horas-dia {
+    display: flex;
+    gap: 2rem;
+}
+
+.horas-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.horas-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-subtle);
+}
+
+.horas-valor {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Timeline */
+.ponto-timeline {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius-md);
+    padding: 0.875rem 1rem;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 70px;
+    opacity: 0.4;
+    transition: var(--transition-base);
+}
+
+.timeline-item.ativo {
+    opacity: 1;
+}
+
+.timeline-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--item-cor, var(--color-text-subtle));
+    flex-shrink: 0;
+    border: 2px solid transparent;
+    transition: var(--transition-base);
+}
+
+.timeline-item.ativo .timeline-dot {
+    box-shadow: 0 0 8px var(--item-cor);
+}
+
+.timeline-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-subtle);
+}
+
+.timeline-hora {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--item-cor, var(--color-text-muted));
+}
+
+.timeline-connector {
+    height: 1px;
+    flex: 0 0 1rem;
+    background: var(--color-border);
+}
+
+/* Botão principal */
+.bater-ponto-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: all var(--transition-base);
+}
+
+.bater-ponto-btn:not(:disabled):hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}
+
+.jornada-concluida {
+    text-align: center;
+    padding: 1rem;
+    color: var(--color-secondary);
+    font-weight: 600;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: var(--radius-md);
+}
+
+/* Feedback */
+.feedback-msg {
+    padding: 0.625rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-weight: 500;
+    animation: fadeInUp 0.3s ease;
+}
+
+.feedback-msg.sucesso {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.feedback-msg.erro {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}

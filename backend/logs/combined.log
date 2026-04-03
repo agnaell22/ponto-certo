@@ -1,0 +1,813 @@
+2026-04-03 10:10:25 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:10:25 [info]: Redis conectado com sucesso
+2026-04-03 10:10:25 [info]: Redis conectado
+2026-04-03 10:10:25 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:10:25 [info]: Agendador de notificações iniciado
+2026-04-03 10:10:25 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:10:25 [info]: Ambiente: development
+2026-04-03 10:11:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:12:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:13:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:14:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:15:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:16:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:17:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:18:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:19:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:20:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:21:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:22:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:23:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:24:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:25:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:26:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:27:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:27:42 [error]: ZodError: [
+  {
+    "code": "too_small",
+    "minimum": 8,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "Senha deve ter no mínimo 8 caracteres",
+    "path": [
+      "senha"
+    ]
+  }
+]
+    at get error [as error] (C:\Ponto-Certo\backend\node_modules\zod\v3\types.cjs:45:31)
+    at ZodObject.parse (C:\Ponto-Certo\backend\node_modules\zod\v3\types.cjs:120:22)
+    at Object.register (C:\Ponto-Certo\backend\src\services\authService.js:48:42)
+    at register (C:\Ponto-Certo\backend\src\controllers\authController.js:6:46)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Ponto-Certo\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Ponto-Certo\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:346:12)
+2026-04-03 10:27:42 [warn]: Request Warning
+2026-04-03 10:28:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:28:06 [error]: AppError: Credenciais inválidas
+    at Object.login (C:\Ponto-Certo\backend\src\services\authService.js:96:19)
+    at async login (C:\Ponto-Certo\backend\src\controllers\authController.js:15:28)
+2026-04-03 10:28:06 [warn]: Request Warning
+2026-04-03 10:29:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:29:44 [error]: AppError: Credenciais inválidas
+    at Object.login (C:\Ponto-Certo\backend\src\services\authService.js:96:19)
+    at async login (C:\Ponto-Certo\backend\src\controllers\authController.js:15:28)
+2026-04-03 10:29:44 [warn]: Request Warning
+2026-04-03 10:30:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:30:21 [info]: Request
+2026-04-03 10:30:21 [error]: AppError: Token de autenticação não fornecido
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:14:19)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+2026-04-03 10:30:21 [warn]: Request Warning
+2026-04-03 10:30:21 [error]: AppError: Token de autenticação não fornecido
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:14:19)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+2026-04-03 10:30:21 [warn]: Request Warning
+2026-04-03 10:30:21 [error]: AppError: Token de autenticação não fornecido
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:14:19)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+2026-04-03 10:30:21 [warn]: Request Warning
+2026-04-03 10:30:21 [error]: AppError: Token de autenticação não fornecido
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:14:19)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+2026-04-03 10:30:21 [warn]: Request Warning
+2026-04-03 10:30:40 [info]: Request
+2026-04-03 10:30:40 [info]: Request
+2026-04-03 10:30:40 [info]: Request
+2026-04-03 10:30:40 [info]: Request
+2026-04-03 10:30:40 [info]: Request
+2026-04-03 10:31:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:31:10 [info]: Request
+2026-04-03 10:31:31 [info]: Request
+2026-04-03 10:31:31 [info]: Request
+2026-04-03 10:31:40 [info]: Request
+2026-04-03 10:31:50 [info]: Request
+2026-04-03 10:31:50 [info]: Request
+2026-04-03 10:32:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:33:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:34:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:34:19 [info]: Request
+2026-04-03 10:34:19 [info]: Request
+2026-04-03 10:34:19 [info]: Request
+2026-04-03 10:34:19 [info]: Request
+2026-04-03 10:34:21 [info]: Request
+2026-04-03 10:34:21 [info]: Request
+2026-04-03 10:34:34 [info]: Request
+2026-04-03 10:34:34 [info]: Request
+2026-04-03 10:34:49 [info]: Request
+2026-04-03 10:35:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:35:19 [info]: Request
+2026-04-03 10:35:49 [info]: Request
+2026-04-03 10:36:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:36:19 [info]: Request
+2026-04-03 10:36:49 [info]: Request
+2026-04-03 10:37:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:37:19 [info]: Request
+2026-04-03 10:37:49 [info]: Request
+2026-04-03 10:38:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:38:19 [info]: Request
+2026-04-03 10:38:49 [info]: Request
+2026-04-03 10:39:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:39:19 [info]: Request
+2026-04-03 10:40:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:40:08 [info]: Request
+2026-04-03 10:41:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:41:08 [info]: Request
+2026-04-03 10:42:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:42:08 [info]: Request
+2026-04-03 10:43:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:43:08 [info]: Request
+2026-04-03 10:44:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:44:08 [info]: Request
+2026-04-03 10:45:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:45:08 [info]: Request
+2026-04-03 10:46:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:46:08 [error]: TokenExpiredError: jwt expired
+    at C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:26:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-03 10:46:08 [warn]: Request Warning
+2026-04-03 10:46:08 [info]: Request
+2026-04-03 10:46:08 [info]: Request
+2026-04-03 10:47:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:47:02 [info]: Request
+2026-04-03 10:47:19 [info]: Request
+2026-04-03 10:47:49 [info]: Request
+2026-04-03 10:48:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:48:01 [info]: Entrada registrada: userId=b51a46e8-91d6-4f2b-bdff-2f7833282a55 às 2026-04-03T13:48:01.016Z
+2026-04-03 10:48:01 [info]: Request
+2026-04-03 10:48:01 [info]: Request
+2026-04-03 10:48:19 [info]: Request
+2026-04-03 10:48:49 [info]: Request
+2026-04-03 10:49:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:49:19 [info]: Request
+2026-04-03 10:49:49 [info]: Request
+2026-04-03 10:50:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:50:19 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:50:40 [info]: Request
+2026-04-03 10:51:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:51:10 [info]: Request
+2026-04-03 10:51:19 [info]: Recebido sinal SIGINT. Encerrando graciosamente...
+2026-04-03 10:52:14 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:52:14 [info]: Redis conectado com sucesso
+2026-04-03 10:52:14 [info]: Redis conectado
+2026-04-03 10:52:14 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:52:14 [info]: Agendador de notificações iniciado
+2026-04-03 10:52:14 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:52:14 [info]: Ambiente: development
+2026-04-03 10:52:42 [info]: Request
+2026-04-03 10:52:45 [info]: Request
+2026-04-03 10:52:45 [info]: Request
+2026-04-03 10:52:46 [info]: Request
+2026-04-03 10:52:46 [info]: Request
+2026-04-03 10:52:46 [info]: Request
+2026-04-03 10:52:46 [info]: Request
+2026-04-03 10:52:46 [info]: Request
+2026-04-03 10:52:46 [info]: Request
+2026-04-03 10:52:53 [info]: Request
+2026-04-03 10:52:53 [info]: Request
+2026-04-03 10:53:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:53:03 [info]: Request
+2026-04-03 10:53:03 [info]: Request
+2026-04-03 10:53:10 [info]: Request
+2026-04-03 10:53:10 [info]: Request
+2026-04-03 10:53:10 [info]: Request
+2026-04-03 10:53:10 [info]: Request
+2026-04-03 10:53:10 [info]: Request
+2026-04-03 10:53:10 [info]: Request
+2026-04-03 10:53:10 [info]: Request
+2026-04-03 10:53:37 [info]: Request
+2026-04-03 10:53:40 [error]: AppError: Token de autenticação não fornecido
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:14:19)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Ponto-Certo\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Ponto-Certo\backend\node_modules\express\lib\router\index.js:328:13)
+2026-04-03 10:53:40 [warn]: Request Warning
+2026-04-03 10:54:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:54:01 [info]: Request
+2026-04-03 10:54:02 [info]: Request
+2026-04-03 10:54:02 [info]: Request
+2026-04-03 10:54:02 [info]: Request
+2026-04-03 10:54:02 [info]: Request
+2026-04-03 10:54:32 [info]: Request
+2026-04-03 10:55:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:55:02 [info]: Request
+2026-04-03 10:55:32 [info]: Request
+2026-04-03 10:56:00 [error]: TypeError: this.verificarJornadasAtivas is not a function
+    at Task._execution (C:\Ponto-Certo\backend\src\services\notificacaoService.js:31:28)
+    at Task.execute (C:\Ponto-Certo\backend\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:524:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Ponto-Certo\backend\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-03 10:56:02 [info]: Request
+2026-04-03 10:56:32 [info]: Request
+2026-04-03 10:56:36 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:56:36 [info]: Redis conectado com sucesso
+2026-04-03 10:56:36 [info]: Redis conectado
+2026-04-03 10:56:36 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:56:36 [info]: Agendador de notificações iniciado
+2026-04-03 10:56:36 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:56:36 [info]: Ambiente: development
+2026-04-03 10:57:02 [info]: Request
+2026-04-03 10:57:24 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:57:24 [info]: Redis conectado com sucesso
+2026-04-03 10:57:24 [info]: Redis conectado
+2026-04-03 10:57:24 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:57:24 [info]: Agendador de notificações iniciado
+2026-04-03 10:57:24 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:57:24 [info]: Ambiente: development
+2026-04-03 10:57:29 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:57:29 [info]: Redis conectado com sucesso
+2026-04-03 10:57:29 [info]: Redis conectado
+2026-04-03 10:57:29 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:57:29 [info]: Agendador de notificações iniciado
+2026-04-03 10:57:29 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:57:29 [info]: Ambiente: development
+2026-04-03 10:57:38 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:57:38 [info]: Redis conectado com sucesso
+2026-04-03 10:57:38 [info]: Redis conectado
+2026-04-03 10:57:38 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:57:38 [info]: Agendador de notificações iniciado
+2026-04-03 10:57:39 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:57:39 [info]: Ambiente: development
+2026-04-03 10:57:58 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:57:58 [info]: Redis conectado com sucesso
+2026-04-03 10:57:58 [info]: Redis conectado
+2026-04-03 10:57:58 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:57:58 [info]: Agendador de notificações iniciado
+2026-04-03 10:57:58 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:57:58 [info]: Ambiente: development
+2026-04-03 10:58:08 [info]: Request
+2026-04-03 10:58:10 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:58:10 [info]: Redis conectado com sucesso
+2026-04-03 10:58:10 [info]: Redis conectado
+2026-04-03 10:58:10 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:58:10 [info]: Agendador de notificações iniciado
+2026-04-03 10:58:10 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:58:10 [info]: Ambiente: development
+2026-04-03 10:58:31 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 10:58:31 [info]: Redis conectado com sucesso
+2026-04-03 10:58:31 [info]: Redis conectado
+2026-04-03 10:58:31 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 10:58:31 [info]: Agendador de notificações iniciado
+2026-04-03 10:58:31 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 10:58:31 [info]: Ambiente: development
+2026-04-03 10:59:08 [info]: Request
+2026-04-03 11:00:07 [info]: Request
+2026-04-03 11:00:32 [info]: Request
+2026-04-03 11:01:02 [info]: Request
+2026-04-03 11:02:39 [info]: Recebido sinal SIGINT. Encerrando graciosamente...
+2026-04-03 11:03:36 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 11:03:36 [info]: Redis conectado com sucesso
+2026-04-03 11:03:36 [info]: Redis conectado
+2026-04-03 11:03:36 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 11:03:36 [info]: Agendador de notificações iniciado
+2026-04-03 11:03:36 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 11:03:36 [info]: Ambiente: development
+2026-04-03 11:06:24 [info]: Banco de dados PostgreSQL conectado
+2026-04-03 11:06:24 [info]: Redis conectado com sucesso
+2026-04-03 11:06:24 [info]: Redis conectado
+2026-04-03 11:06:24 [info]: Cron jobs de notificação iniciados (intervalo: 1 min)
+2026-04-03 11:06:24 [info]: Agendador de notificações iniciado
+2026-04-03 11:06:24 [info]: Servidor Ponto-Certo rodando na porta 3001
+2026-04-03 11:06:24 [info]: Ambiente: development
+2026-04-03 11:08:29 [error]: AppError: Credenciais inválidas
+    at Object.login (C:\Ponto-Certo\backend\src\services\authService.js:96:19)
+    at async login (C:\Ponto-Certo\backend\src\controllers\authController.js:15:28)
+2026-04-03 11:08:29 [warn]: Request Warning
+2026-04-03 11:09:00 [info]: Request
+2026-04-03 11:09:00 [info]: Request
+2026-04-03 11:09:01 [error]: TokenExpiredError: jwt expired
+    at C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:26:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-03 11:09:01 [warn]: Request Warning
+2026-04-03 11:09:01 [error]: TokenExpiredError: jwt expired
+    at C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:26:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-03 11:09:01 [warn]: Request Warning
+2026-04-03 11:09:01 [error]: TokenExpiredError: jwt expired
+    at C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:26:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-03 11:09:01 [warn]: Request Warning
+2026-04-03 11:09:01 [error]: TokenExpiredError: jwt expired
+    at C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:26:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-03 11:09:01 [warn]: Request Warning
+2026-04-03 11:09:01 [error]: TokenExpiredError: jwt expired
+    at C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:26:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-03 11:09:01 [warn]: Request Warning
+2026-04-03 11:09:01 [error]: TokenExpiredError: jwt expired
+    at C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Ponto-Certo\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Ponto-Certo\backend\src\middlewares\authMiddleware.js:26:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-03 11:09:01 [warn]: Request Warning
+2026-04-03 11:09:01 [info]: Request
+2026-04-03 11:09:01 [info]: Request
+2026-04-03 11:09:01 [info]: Request
+2026-04-03 11:09:01 [info]: Request
+2026-04-03 11:09:01 [info]: Request
+2026-04-03 11:09:01 [info]: Request
+2026-04-03 11:09:01 [info]: Request
+2026-04-03 11:09:13 [info]: Request
+2026-04-03 11:09:13 [info]: Request
+2026-04-03 11:09:31 [info]: Request
+2026-04-03 11:10:01 [info]: Request
+2026-04-03 11:10:06 [info]: Request
+2026-04-03 11:10:06 [info]: Request
+2026-04-03 11:10:13 [info]: Request
+2026-04-03 11:10:13 [info]: Request
+2026-04-03 11:10:13 [info]: Request
+2026-04-03 11:10:13 [info]: Request
+2026-04-03 11:10:13 [info]: Request
+2026-04-03 11:10:13 [info]: Request
+2026-04-03 11:10:43 [info]: Request
+2026-04-03 11:11:13 [info]: Request
+2026-04-03 11:11:43 [info]: Request
+2026-04-03 11:11:56 [info]: Request
+2026-04-03 11:11:56 [info]: Request
+2026-04-03 11:12:10 [info]: Request
+2026-04-03 11:12:10 [info]: Request
+2026-04-03 11:12:10 [info]: Request
+2026-04-03 11:12:10 [info]: Request
+2026-04-03 11:12:17 [warn]: Request Warning
+2026-04-03 11:12:17 [warn]: Request Warning
+2026-04-03 11:12:45 [info]: Request
+2026-04-03 11:12:45 [info]: Request
+2026-04-03 11:12:45 [info]: Request
+2026-04-03 11:12:45 [info]: Request
+2026-04-03 11:13:11 [warn]: Request Warning
+2026-04-03 11:13:15 [info]: Request
+2026-04-03 11:13:16 [warn]: Request Warning
+2026-04-03 11:13:18 [info]: Request
+2026-04-03 11:13:18 [info]: Request
+2026-04-03 11:13:23 [info]: Request
+2026-04-03 11:13:38 [info]: Request
+2026-04-03 11:14:08 [info]: Request
+2026-04-03 11:14:08 [info]: Request
+2026-04-03 11:14:08 [info]: Request
+2026-04-03 11:14:15 [info]: Request
+2026-04-03 11:14:15 [info]: Request
+2026-04-03 11:14:17 [info]: Request
+2026-04-03 11:14:17 [info]: Request
+2026-04-03 11:14:18 [info]: Request
+2026-04-03 11:14:19 [info]: Request
+2026-04-03 11:14:19 [info]: Request
+2026-04-03 11:14:19 [info]: Request
+2026-04-03 11:14:20 [warn]: Request Warning
+2026-04-03 11:14:20 [warn]: Request Warning
+2026-04-03 11:14:23 [info]: Request
+2026-04-03 11:14:23 [info]: Request
+2026-04-03 11:14:25 [info]: Request
+2026-04-03 11:14:25 [info]: Request
+2026-04-03 11:14:26 [info]: Request
+2026-04-03 11:14:26 [info]: Request
+2026-04-03 11:14:28 [info]: Request
+2026-04-03 11:14:28 [info]: Request
+2026-04-03 11:14:28 [info]: Request
+2026-04-03 11:14:28 [info]: Request
+2026-04-03 11:14:28 [info]: Request
+2026-04-03 11:14:28 [info]: Request
+2026-04-03 11:14:50 [error]: AppError: Credenciais inválidas
+    at Object.login (C:\Ponto-Certo\backend\src\services\authService.js:96:19)
+    at async login (C:\Ponto-Certo\backend\src\controllers\authController.js:15:28)
+2026-04-03 11:14:50 [warn]: Request Warning
+2026-04-03 11:14:58 [info]: Request
+2026-04-03 11:15:23 [info]: Request
+2026-04-03 11:15:34 [info]: Request
+2026-04-03 11:15:34 [info]: Request
+2026-04-03 11:15:34 [info]: Request
+2026-04-03 11:15:34 [info]: Request
+2026-04-03 11:15:34 [info]: Request
+2026-04-03 11:16:05 [info]: Request
+2026-04-03 11:16:35 [info]: Request
+2026-04-03 11:17:05 [info]: Request
+2026-04-03 11:17:35 [info]: Request
+2026-04-03 11:18:05 [info]: Request
+2026-04-03 11:18:35 [info]: Request
+2026-04-03 11:20:02 [info]: Request
+2026-04-03 11:21:02 [info]: Request
+2026-04-03 11:22:02 [info]: Request
+2026-04-03 11:23:03 [info]: Recebido sinal SIGINT. Encerrando graciosamente...

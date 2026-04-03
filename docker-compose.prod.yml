@@ -1,0 +1,71 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      target: base
+    container_name: pontocerto-backend
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@db:5432/${DB_NAME}?schema=public
+      - REDIS_URL=redis://redis:6379
+      - PORT=3001
+      - JWT_SECRET=${JWT_SECRET}
+      - FRONTEND_URL=${FRONTEND_URL}
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - pontocerto-net
+    volumes:
+      - ./backend/uploads:/app/uploads
+    deploy:
+      resources:
+        limits:
+          memory: 400M # Evitar que o Node consuma toda a RAM da VPS
+
+  db:
+    image: postgres:15-alpine
+    container_name: pontocerto-db
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - pontocerto-net
+    deploy:
+      resources:
+        limits:
+          memory: 300M
+
+  redis:
+    image: redis:7-alpine
+    container_name: pontocerto-redis
+    restart: always
+    command: redis-server --save 60 1 --loglevel warning
+    volumes:
+      - redis_data:/data
+    networks:
+      - pontocerto-net
+    deploy:
+      resources:
+        limits:
+          memory: 100M
+
+networks:
+  pontocerto-net:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:
