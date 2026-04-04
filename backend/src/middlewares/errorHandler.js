@@ -58,7 +58,8 @@ const errorHandler = (err, req, res, next) => {
     const isProduction = process.env.NODE_ENV === 'production';
     res.status(500).json({
         error: 'Erro interno do servidor',
-        ...(isProduction ? {} : { detalhe: err.message }),
+        detalhe: err.message, // Forçando a exibição do erro por enquanto para debug na Vercel
+        stack: isProduction ? undefined : err.stack
     });
 };
 

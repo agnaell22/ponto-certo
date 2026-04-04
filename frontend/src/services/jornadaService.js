@@ -42,12 +42,12 @@ export const jornadaService = {
     },
 
     async obterConfiguracoes() {
-        const res = await apiClient.get('/configuracoes');
+        const res = await apiClient.get('/config');
         return res.data;
     },
 
     async salvarConfiguracoes(data) {
-        const res = await apiClient.put('/configuracoes', data);
+        const res = await apiClient.put('/config', data);
         return res.data;
     },
 };
