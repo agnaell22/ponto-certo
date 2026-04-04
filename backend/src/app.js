@@ -61,6 +61,15 @@ app.use(requestLogger);
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
 // ==========================================
+// Rota inicial / Teste
+// ==========================================
+app.get('/', (req, res) => {
+    res.json({
+        message: '🚀 Ponto-Certo Backend is Online on Vercel!',
+        status: 'ok'
+    });
+});
+
 // Health check
 // ==========================================
 app.get('/health', (req, res) => {
