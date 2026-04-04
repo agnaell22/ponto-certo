@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import './Sidebar.css';
 
@@ -16,6 +16,13 @@ const navItems = [
 export default function Sidebar({ collapsed, onToggle }) {
     const { user, logout } = useAuth();
     const navigate = useNavigate();
+    const location = useLocation();
+    const [mobileOpen, setMobileOpen] = useState(false);
+
+    // Fechar sidebar mobile ao mudar de página
+    useEffect(() => {
+        setMobileOpen(false);
+    }, [location.pathname]);
 
     const handleLogout = async () => {
         await logout();
@@ -23,14 +30,29 @@ export default function Sidebar({ collapsed, onToggle }) {
     };
 
     return (
-        <aside className={`sidebar ${collapsed ? 'collapsed' : ''}`}>
+        <>
+        {/* Botão hamburger (mobile only) */}
+        <button
+            className="mobile-menu-btn"
+            onClick={() => setMobileOpen(true)}
+            aria-label="Abrir menu"
+        >
+            <span className="hamburger-icon">☰</span>
+        </button>
+
+        {/* Overlay escuro (mobile only) */}
+        {mobileOpen && (
+            <div className="sidebar-overlay" onClick={() => setMobileOpen(false)} />
+        )}
+
+        <aside className={`sidebar ${collapsed ? 'collapsed' : ''} ${mobileOpen ? 'mobile-open' : ''}`}>
             {/* Logo */}
             <div className="sidebar-header">
                 <div className="sidebar-logo">
                     <span className="logo-icon">⏱</span>
                     {!collapsed && <span className="logo-text">Ponto-Certo</span>}
                 </div>
-                <button className="sidebar-toggle btn btn-ghost btn-icon" onClick={onToggle} title="Recolher menu">
+                <button className="sidebar-toggle btn btn-ghost btn-icon" onClick={() => { onToggle(); setMobileOpen(false); }} title="Recolher menu">
                     {collapsed ? '→' : '←'}
                 </button>
             </div>
@@ -78,5 +100,6 @@ export default function Sidebar({ collapsed, onToggle }) {
                 </button>
             </div>
         </aside>
+        </>
     );
 }

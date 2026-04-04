@@ -480,6 +480,7 @@ body {
 
     .page-container {
         padding: 1rem;
+        padding-top: 4.5rem;
     }
 
     .main-content {
@@ -502,6 +503,10 @@ body {
 
     .login-card {
         padding: 1.5rem 1rem;
+    }
+
+    .page-header {
+        padding-left: 3.5rem;
     }
 }
 
