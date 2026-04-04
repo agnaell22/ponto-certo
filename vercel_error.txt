@@ -1,0 +1,6 @@
+
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42P05", message: "prepared statement \"s3\" already exists", severity: "ERROR", detail: None, column: None, hint: None }), transient: false })
