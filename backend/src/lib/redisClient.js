@@ -5,22 +5,43 @@ let redisClient = null;
 
 const getRedisClient = () => {
     if (!redisClient) {
-        redisClient = new Redis(process.env.REDIS_URL || 'redis://localhost:6379', {
-            maxRetriesPerRequest: 3,
+        const redisUrl = process.env.REDIS_URL || 'redis://localhost:6379';
+        const isSsl = redisUrl.startsWith('rediss://');
+
+        const redisOptions = {
+            maxRetriesPerRequest: null, // Mantém tentando conectar sem derrubar o app
             enableReadyCheck: false,
             lazyConnect: true,
-        });
+            retryStrategy(times) {
+                const delay = Math.min(times * 50, 2000);
+                return delay;
+            }
+        };
+
+        // Adiciona configuração TLS se for rediss:// (Upstash/Cloud)
+        if (isSsl) {
+            redisOptions.tls = {
+                rejectUnauthorized: false
+            };
+        }
+
+        redisClient = new Redis(redisUrl, redisOptions);
 
         redisClient.on('connect', () => {
             logger.info('Redis conectado com sucesso');
         });
 
         redisClient.on('error', (err) => {
+            // Log apenas o erro, sem derrubar o processo
             logger.error('Redis erro de conexão:', err.message);
         });
 
         redisClient.on('close', () => {
             logger.warn('Redis conexão encerrada');
+        });
+
+        redisClient.on('reconnecting', () => {
+            logger.info('Redis tentando reconectar...');
         });
     }
     return redisClient;
