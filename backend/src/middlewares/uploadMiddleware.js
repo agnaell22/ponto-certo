@@ -2,10 +2,18 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 
-// Garantir que a pasta de uploads existe
-const uploadDir = path.join(__dirname, '../../uploads/justificativas');
-if (!fs.existsSync(uploadDir)) {
-    fs.mkdirSync(uploadDir, { recursive: true });
+// Garantir que a pasta de uploads existe (No Vercel usamos /tmp)
+const isVercel = process.env.VERCEL || process.env.NODE_ENV === 'production';
+const uploadDir = isVercel ? '/tmp' : path.join(__dirname, '../../uploads/justificativas');
+
+if (!isVercel) {
+    try {
+        if (!fs.existsSync(uploadDir)) {
+            fs.mkdirSync(uploadDir, { recursive: true });
+        }
+    } catch (err) {
+        console.warn('⚠️ Não foi possível criar a pasta de uploads (normal no Vercel):', err.message);
+    }
 }
 
 const storage = multer.diskStorage({
