@@ -20,7 +20,15 @@ const app = express();
 // ==========================================
 app.use(helmet());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: (origin, callback) => {
+        const allowedOrigin = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.replace(/\/$/, '') : 'http://localhost:5173';
+        // Se a origem for a mesma da configuração (sem barra final), ou se for undefined (como no Postman)
+        if (!origin || origin.replace(/\/$/, '') === allowedOrigin.replace(/\/$/, '')) {
+            callback(null, true);
+        } else {
+            callback(null, allowedOrigin); // Força a origem permitida
+        }
+    },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
