@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+dist/
+build/
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Prisma
+backend/prisma/*.db
+backend/prisma/*.db-journal
+
+# OS files
+.DS_Store
+Thumbs.db
