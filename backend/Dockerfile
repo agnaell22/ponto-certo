@@ -1,10 +1,9 @@
-FROM node:20-alpine AS base
-
+FROM node:20-slim AS base
 WORKDIR /app
 
 # Instalar dependências apenas
 COPY package*.json ./
-RUN apk add --no-cache openssl
+RUN apt-get update -y && apt-get install -y openssl
 RUN npm ci --only=production --ignore-scripts
 
 # Gerar Prisma Client
