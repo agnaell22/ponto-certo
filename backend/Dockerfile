@@ -4,6 +4,7 @@ WORKDIR /app
 
 # Instalar dependências apenas
 COPY package*.json ./
+RUN apk add --no-cache openssl
 RUN npm ci --only=production --ignore-scripts
 
 # Gerar Prisma Client
