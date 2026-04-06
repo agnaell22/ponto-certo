@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Instalar dependências apenas
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm ci --only=production --ignore-scripts
 
 # Gerar Prisma Client
 COPY prisma ./prisma/
