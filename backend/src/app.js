@@ -22,11 +22,15 @@ app.use(helmet());
 app.use(cors({
     origin: (origin, callback) => {
         const allowedOrigin = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.replace(/\/$/, '') : 'http://localhost:5173';
-        // Se a origem for a mesma da configuração (sem barra final), ou se for undefined (como no Postman)
-        if (!origin || origin.replace(/\/$/, '') === allowedOrigin.replace(/\/$/, '')) {
+        
+        // Permite Vercel (qualquer preview), Localhost ou a URL oficial definida no .env
+        if (!origin || 
+            origin === allowedOrigin || 
+            origin.endsWith('.vercel.app') || 
+            origin.includes('localhost')) {
             callback(null, true);
         } else {
-            callback(null, allowedOrigin); // Força a origem permitida
+            callback(new Error('Not allowed by CORS'));
         }
     },
     credentials: true,
