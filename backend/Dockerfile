@@ -13,9 +13,11 @@ RUN npx prisma generate
 # Copiar código fonte
 COPY src ./src
 
+# Preparar permissões
+RUN chown -R node:node /app
+
 # Usuário não-root para segurança
-RUN addgroup -g 1001 -S nodejs && adduser -S nodejs -u 1001
-USER nodejs
+USER node
 
 EXPOSE 3001
 
