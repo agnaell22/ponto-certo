@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useJornadaControles } from '../hooks/useJornada';
 import { useHorasExtras } from '../hooks/useHorasExtras';
 import Relogio from './Relogio';
+import JustificativaModal from './JustificativaModal';
 
 const FASE_CONFIG = {
     AGUARDANDO_ENTRADA: { cor: 'var(--color-entrada)', emoji: '🟢', pulso: false },
@@ -16,6 +17,7 @@ export default function BaterPontoCard() {
     const { horasExtraFormatado, alertaHoraExtra } = useHorasExtras();
     const [processando, setProcessando] = useState(false);
     const [feedback, setFeedback] = useState(null);
+    const [modalJustificativaAberto, setModalJustificativaAberto] = useState(false);
 
     const fase = statusDia?.fase || 'AGUARDANDO_ENTRADA';
     const faseConf = FASE_CONFIG[fase] || FASE_CONFIG.AGUARDANDO_ENTRADA;
@@ -123,27 +125,56 @@ export default function BaterPontoCard() {
                 </div>
             )}
 
-            {/* Botão de ação */}
+            {/* Botão de ação ou Escolha de Jornada */}
             {proximaAcao ? (
-                <button
-                    className={`btn btn-${proximaAcao.cor === 'success' ? 'success' : proximaAcao.cor === 'warning' ? 'warning' : 'primary'} btn-xl w-full bater-ponto-btn`}
-                    onClick={handleBaterPonto}
-                    disabled={processando}
-                    id={`btn-${proximaAcao.tipo.toLowerCase()}`}
-                >
-                    {processando ? (
-                        <><div className="spinner" /> Registrando...</>
-                    ) : (
-                        proximaAcao.label
-                    )}
-                </button>
+                fase === 'AGUARDANDO_ENTRADA' ? (
+                    <div className="confirmacao-jornada-box px-4 py-6 bg-base-200 rounded-lg mt-4 text-center">
+                        <p className="mb-6 text-lg font-bold">Você iniciará sua jornada de trabalho hoje?</p>
+                        <div className="flex gap-4 w-full">
+                            <button
+                                className="btn btn-success flex-1 flex-col h-auto py-3 justify-center gap-1"
+                                onClick={handleBaterPonto}
+                                disabled={processando}
+                            >
+                                {processando ? <div className="spinner" /> : <span className="text-2xl">💼</span>}
+                                <span className="text-sm">Sim, iniciar</span>
+                            </button>
+                            <button
+                                className="btn btn-error flex-1 flex-col h-auto py-3 justify-center gap-1"
+                                onClick={() => setModalJustificativaAberto(true)}
+                                disabled={processando}
+                            >
+                                <span className="text-2xl">🏖️</span>
+                                <span className="text-sm">Vou me ausentar</span>
+                            </button>
+                        </div>
+                    </div>
+                ) : (
+                    <button
+                        className={`btn btn-${proximaAcao.cor === 'success' ? 'success' : proximaAcao.cor === 'warning' ? 'warning' : 'primary'} btn-xl w-full bater-ponto-btn mt-4`}
+                        onClick={handleBaterPonto}
+                        disabled={processando}
+                        id={`btn-${proximaAcao.tipo.toLowerCase()}`}
+                    >
+                        {processando ? (
+                            <><div className="spinner" /> Registrando...</>
+                        ) : (
+                            proximaAcao.label
+                        )}
+                    </button>
+                )
             ) : (
-                <div className="jornada-concluida">
+                <div className="jornada-concluida mt-4 p-4 text-center font-bold text-success">
                     ✅ Jornada concluída. Até amanhã!
                 </div>
             )}
 
-            {error && <p className="form-error mt-2">{error}</p>}
+            {error && <p className="form-error mt-4 text-center">{error}</p>}
+            
+            <JustificativaModal 
+                isOpen={modalJustificativaAberto} 
+                onClose={() => setModalJustificativaAberto(false)} 
+            />
         </div>
     );
 }

@@ -63,7 +63,9 @@ const cltService = {
     calcularHorasExtras(horasTrabalhadasMin, jornadaPadraoMin = CLT.JORNADA_DIARIA_MIN) {
         const excedente = Math.max(0, horasTrabalhadasMin - jornadaPadraoMin);
         const ultrapassaLimite = excedente > CLT.HORA_EXTRA_MAXIMA_DIA_MIN;
-        const horasExtrasMin = Math.min(excedente, CLT.HORA_EXTRA_MAXIMA_DIA_MIN);
+        
+        // Ponto de alteração: liberar as horas extras reais mesmo se excederem o limite legal (que será apenas alertado)
+        const horasExtrasMin = excedente;
 
         // Valor do adicional (apenas referência, salário calculado fora)
         const adicional = CLT.ADICIONAL_HORA_EXTRA;

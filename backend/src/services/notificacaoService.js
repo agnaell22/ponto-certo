@@ -100,17 +100,15 @@ const notificacaoService = {
             if (diff >= -antecedenciaMin && diff < 0) {
                 // Notificar X minutos antes
                 await notificacaoService.criarEventoNotificacao(userId, 'ENTRADA', 'pre_entrada', diff, null);
-            } else if (diff >= 0 && diff <= 30) {
-                // Horário de entrada passou e nada registrado — auto-registro após 0-30min de espera
+            } else if (diff >= 0 && diff <= 60) {
+                // Horário de entrada passou e nada registrado — O usuário ainda não decidiu ou se atrasou
                 if (diff === 15) {
-                    // Auto-registrar entrada 15min após horário configurado
-                    logger.info(`Auto-registro de ENTRADA: userId=${userId}`);
-                    await jornadaService.baterEntrada(userId, 'system', 'AUTOMATICO');
+                    logger.warn(`Atraso detectado: userId=${userId} já está 15 minutos atrasado e não iniciou a jornada ou cadastrou ausência.`);
                     await logRepository.create({
                         userId,
-                        tipoEvento: 'AUTO_REGISTRO',
+                        tipoEvento: 'NOTIFICACAO_ENVIADA',
                         origem: 'SISTEMA',
-                        detalhes: { tipo: 'entrada', motivo: 'usuario_nao_respondeu' },
+                        detalhes: { tipo: 'entrada', motivo: 'atraso_detectado', atrasoMinutos: diff },
                     });
                 }
             }
@@ -132,15 +130,15 @@ const notificacaoService = {
                         // Marcar adiado na primeira vez
                         if (diff === 0) estado.intervaloAdiado = true;
                     } else {
-                        // Passou 1h sem iniciar — auto-registrar
-                        logger.info(`Auto-registro de INICIO_INTERVALO: userId=${userId}`);
-                        await jornadaService.iniciarIntervalo(userId, 'system', 'AUTOMATICO');
+                        // Passou 1h sem iniciar — Mudar de auto-registrar apenas para registrar log de violação
+                        if (diff === 60) {
+                            logger.warn(`Violação de intervalo detectada: userId=${userId} não iniciou o intervalo de descanso após 1h de tolerância.`);
+                        }
                     }
                 } else {
-                    // Intervalo já adiado — sem segunda chance, auto-iniciar após 1h do horário original
-                    if (diff >= 30) {
-                        logger.info(`Auto-registro de INICIO_INTERVALO (pós-adiamento): userId=${userId}`);
-                        await jornadaService.iniciarIntervalo(userId, 'system', 'AUTOMATICO');
+                    // Intervalo já adiado — sem segunda chance
+                    if (diff === 30) {
+                        logger.warn(`Violação: userId=${userId} excedeu o adiamento de 30min e não iniciou o intervalo.`);
                     }
                 }
             }
@@ -156,10 +154,9 @@ const notificacaoService = {
 
             if (diff >= -antecedenciaMin && diff < 0) {
                 await notificacaoService.criarEventoNotificacao(userId, 'FIM_INTERVALO', 'pre_retorno', diff, registro.id);
-            } else if (diff >= 30) {
-                // 30min após retorno previsto sem registro — auto-registrar retorno
-                logger.info(`Auto-registro de FIM_INTERVALO: userId=${userId}`);
-                await jornadaService.finalizarIntervalo(userId, 'system', 'AUTOMATICO');
+            } else if (diff === 30) {
+                // 30min após retorno previsto sem registro — notificar atraso grave de retorno
+                logger.warn(`Atraso de retorno de intervalo: userId=${userId} não apontou o encerramento do almoço previsto.`);
             }
         }
 
